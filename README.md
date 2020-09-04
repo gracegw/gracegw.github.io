@@ -1,2 +1,2 @@
 # Planfly
-I made my original planner website
+I made my original planner and portfolio website
