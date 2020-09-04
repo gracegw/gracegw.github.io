@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="s1b.css">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    h1{
+      color:   #004566;
+      font-family: Times New Roman;
+      font-size: 45px
+    }
+
+    body{
+      background-image: url("https://images.pexels.com/photos/3255761/pexels-photo-3255761.jpeg?cs=srgb&dl=pexels-scott-webb-3255761.jpg&fm=jpg");
+    }
+  }
+
+
+
+</style>
+
+<h1 class="text-center mt-5">Calendar Schedule</h1> 
+
+</head>
+<body>
+
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+
+
+    <button type="button" class="btn btn-default btn-sm" id="prev" onclick="prev()">
+     <span class="glyphicon glyphicon-chevron-left"></span> Prev
+   </button>
+
+   <button type="button" class="btn btn-default btn-sm" id="next" onclick="next()">
+    <span class="glyphicon glyphicon-chevron-right"></span> Next
+  </button>
+
+
+  
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Month
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+     <a class="dropdown-item" href="#" onclick="skip(0)" >Jan</a>
+     <a class="dropdown-item" href="#" onclick="skip(1)">Feb</a>
+     <a class="dropdown-item" href="#" onclick="skip(2)">March</a>
+     <a class="dropdown-item" href="#" onclick="skip(3)">April</a>
+     <a class="dropdown-item" href="#" onclick="skip(4)">May</a>
+     <a class="dropdown-item" href="#" onclick="skip(5)">June</a>
+     <a class="dropdown-item" href="#" onclick="skip(6)">July</a>
+     <a class="dropdown-item" href="#" onclick="skip(7)">August</a>
+     <a class="dropdown-item" href="#" onclick="skip(8)">September</a>
+     <a class="dropdown-item" href="#" onclick="skip(9)">October</a>
+     <a class="dropdown-item" href="#" onclick="skip(10)">November</a>
+     <a class="dropdown-item" href="#" onclick="skip(11)">December</a>
+
+
+   </div>
+ </div>
+
+</div>
+
+
+
+
+
+<div class="card">
+  <h3 class="card-header" id="monthAndYear"></h3>
+  <table class="table table-responsive-sm  table-striped table-hover" id="calendar">
+    <thead>
+      <tr>
+
+        <th class = "table-primary">Sun</th>
+        <th class= "table-success">Mon</th>
+        <th class = "table-secondary">Tue</th>
+        <th class = "table-warning">Wed</th>
+        <th class = "table-info">Thu</th>
+        <th class = "table-danger">Fri</th>
+        <th class = "table-primary">Sat</th>
+
+      </tr>
+    </thead>
+
+    <tbody id="calendar-body">
+
+    </tbody>
+  </table>
+
+
+</div>
+
+
+<script src="s1a.js"></script>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Cascading stylesheet for the web page "World Peace Issue List"
+   Created by Harrison Kong
+   Copyright (C) Coursera 2020 */
+
+body {
+  color: red;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.textfield{
+    max-height: 200px;   
+}
+
+
+h1 {
+  color: black;
+  font-family: "Times New Roman"
+}
+
+
+
+table {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+table, td {
+  border: 0.2rem solid black;
+  border-collapse: collapse;
+  color: black
+}
+
+th{
+  border: 0.2rem solid black;
+  border-collapse: collapse;
+  color: white
+}
+
+th, td {
+  padding: 0.7rem;
+}
+
+.empty-cell {
+  background-color: #DB7093
+;
+}
+
+.highlight-cell {
+  background-color: purple;
+}
+
+
+.results-div, h1 {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+
+
+.textfield {
+  margin: auto;
+  width: 90%;
+}
+
+

@@ -1,0 +1,54 @@
+
+
+.b{
+	position:relative;
+}
+
+.box {
+  width: 600px;
+  border: 10px solid purple;
+  height: 600px;  
+  z-index: -1;
+  background-color: white;
+
+
+  margin-left: 430px;
+
+  margin-top: 70px;
+
+  position: absolute;
+}
+
+.clips{
+	width: 150px;
+  	height: 70px;
+  	
+
+  	left: 50%;
+  	margin-left: -60px;
+
+	top: 10%;
+  	margin-top: -40px;
+    position:absolute;
+  }
+
+  .btn-primary{
+
+  	margin-left: 65%;
+  	margin-right: 50%;
+
+ top: 13%;
+     position:absolute;
+
+
+  }
+
+  .textbox{
+  	margin-left: 35%;
+  	margin-right: 40%;
+    position:absolute;
+
+top: 20%;
+    margin-top: 150px;
+
+  }

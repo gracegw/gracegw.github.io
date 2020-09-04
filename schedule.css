@@ -1,0 +1,45 @@
+
+.box {
+	width: 600px;
+	border: 10px solid teal;
+	height: 600px;  
+	z-index: -1;
+	background-color: white;
+
+
+	margin-left: 430px;
+
+	margin-top: 70px;
+
+	position: absolute;
+
+}
+
+h1 {
+	text-align: center;
+	margin-top: 5%;
+
+	font-family: Times New Roman;
+}
+
+
+
+.btn{
+
+	margin-left: 15%;
+
+	margin-top: 10%;
+
+	position: absolute;
+}
+
+.btn2{
+
+	margin-left: 15%;
+
+	margin-top: 20%;
+
+	position: absolute;
+}
+
+

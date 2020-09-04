@@ -1,0 +1,92 @@
+
+<!doctype html>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<!-- STEP 2: ADD the database LIBRARY -->
+<script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+
+
+
+<html lang="en">
+
+<header>
+
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link href="datab.css" rel="stylesheet" />
+<h1>Notebook</h1>
+<title>Notes</title>
+
+<style >
+
+ body, html {
+  height: 100%;
+  margin: 0;
+}
+	.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+</header>
+
+<body class="bg">
+
+<div class="results-div">
+  <table>
+    <!--add a 4th col for delete button-->
+    <col width="15%"><col width="65%"><col width="10%">
+    <thead class="highlight-cell"><th>Category</th><th></th><th>Delete</th></thead>
+    <tbody id="table1"></tbody>
+
+    <tfoot class="empty-cell">
+      <td>
+        <input class="textfield" id="category-text" type="text" name="description-textfield" placeholder="e.g. add category" />
+      </td>
+
+      <td class= "expand">
+        <input class="textfield" id="note-text" type="text" name="description-textfield" placeholder="e.g. add note" />
+      </td>
+       
+      <td></td>
+    </tfoot>
+  </table>
+  <button type="button" class="btn btn-outline-dark" value="Add Note" id="addButton" onclick="addNewNote()">Add Notes</button>
+
+</div>
+     <a href="notes.html"><button type="button" class="btn btn-outline-primary btn-lg">Notebook: Clipboard Version</button></a>
+
+
+</body>
+
+	
+    <script src ="datab.js" type="text/javascript"></script>
+
+
+</html>
