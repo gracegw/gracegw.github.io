@@ -1,17 +1,16 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyBiP64drpnaRk1cFTkjX6vAyOKpsBn3y5k",
-    authDomain: "authenticate-e0f5d.firebaseapp.com",
-    databaseURL: "https://authenticate-e0f5d.firebaseio.com",
-    projectId: "authenticate-e0f5d",
-    storageBucket: "authenticate-e0f5d.appspot.com",
-    messagingSenderId: "344513831016",
-    appId: "1:344513831016:web:d283cf7026d64919c3dbdd",
-    measurementId: "G-WQQYZG4C01"
+    apiKey: "AIzaSyD1kVDKLBm5jnmrmlNhxOYbpXdqGWt3pa4",
+    authDomain: "notepad-b6c82.firebaseapp.com",
+    databaseURL: "https://notepad-b6c82.firebaseio.com",
+    projectId: "notepad-b6c82",
+    storageBucket: "notepad-b6c82.appspot.com",
+    messagingSenderId: "945242521131",
+    appId: "1:945242521131:web:88cbbb4a5d690143f3f46e",
+    measurementId: "G-VDDT3W67NP"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-
 
 
 //*************
