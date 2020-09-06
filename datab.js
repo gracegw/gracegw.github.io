@@ -1,6 +1,7 @@
 
+
    // Your web app's Firebase configuration
-  var firebaseConfig = {
+ var firebaseConfig = {
     apiKey: "AIzaSyD1kVDKLBm5jnmrmlNhxOYbpXdqGWt3pa4",
     authDomain: "notepad-b6c82.firebaseapp.com",
     databaseURL: "https://notepad-b6c82.firebaseio.com",
@@ -71,6 +72,13 @@ rootRef.on("value",
 
 
   function addNewNote() {
+
+  var user = firebase.auth().currentUser;
+
+    if (!user) {
+      alert('Please sign in first to be able to add and delete notes!');
+    } 
+    
   //pull value out of the first dropdown box of a severity option
   const category = document.getElementById("category-text").value;
   const note = document.getElementById("note-text").value;
