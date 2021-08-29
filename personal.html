@@ -75,8 +75,9 @@
 
      <div class="w3-col m6 w3-padding-large">
       <h1 class="w3-center">About Me</h1><br>
-      <h5 class="w3-center">I am a sophmore majoring in Computer Science at the University of Michigan, Ann Arbor, graduating in May 2023</h5>
+      <h5 class="w3-center">I am a Junior majoring in Computer Science at the University of Michigan Ann Arbor, graduating in May 2023</h5>
       <h5 class="w3-center">I'm passionate about devising efficient solutions to complex problems and eager to seek opportunities to work and learn from.</h5>
+      <h5 class="w3-center">Outside of academica, I love to read, do acrylic painting, play piano, and explore the outdoors!</h5>
 
     </div>
   </div>
@@ -90,17 +91,23 @@
     <div class="w3-col l6 w3-padding-large">
       <h1 class="w3-center">My Languages</h1><br>
       <h4>C++/C</h4>
-      <p >Created a variety of projects including image-resizing algorithms, web-development, and machine learning. Studied in EECS 280. </p><br>
-
-      <h4>Python HTML, JavaScript, CSS/Bootstrap</h4>
-      <p> Created a dynamic music quiz website as an extension with EECS 183 (see projects), worked with Python scripts and REST API for the office hour queue simulator, and devloped the Planfly website you just came from. </p><br>
-
-
+      <p >Created a variety of projects including assembly language simulators, Letterman, Mine Escape, machine learning, web-development, etc.
+      <br></br>
+        
+      <h4>Python, HTML, JavaScript, CSS/Bootstrap</h4>
+      <p> Worked with my CodeJam team (Principal Financial Internship) to  create a web app showcasing the IT program. Utilized AWS Cloud9, AWS EC2 hosting, React, and Node.
+      <br></br>
+        
       <h4>Java</h4>
       <p>Devleoped several games (Ex: mouse in maze, sudoku type, etc.) and math applications.</p><br>
 
       <h4>R</h4>
       <p>Performed data analysis, data visualization (create graphs and charts), calculations, linear/nonlinear modeling, classification, classical statistical tests, clustering, etc., used with STATS 250 </p>    
+      <br>
+
+      <h4>YAML, Terraform</h4>
+      <p> Worked with yaml coded pipelines, and terraform resource provisioning</p>
+      
     </div>
     
     <div class="w3-col l6 w3-padding-large">
@@ -117,6 +124,13 @@
    <div class="w3-col l6 w3-padding-large">
     <h1 class="w3-center">Experience</h1><br>
 
+       
+    <h3>Software Engineering Intern at Principal Financial</h3>
+    <h5> Member of the PGI CPET, worked with Intern Code Jam to create a web app, and led the project of migrating the infra-cloud-package to CDKTF.</h5>
+    <h5> Became familiar with Agile workflow and Jira, worked with AWS (CDK, CDKTF, Iam Resources, Expense Management, ADO pipelines, EC2 hosting, Cloudformation, Cloudwatch, etc), Azure DevOps, Github, CI/CD pipelines, Terraform, Yaml</h5>
+
+    <br></br>
+     
     <h3> TCS codeConnects teacher</h3>
     <h5> Teaching students one-on-one computer science skills, algorithms, and Python</h5>
     <br></br>
@@ -125,22 +139,49 @@
     <h5> Help develop rubrics and grade exams, quizzes, homework</h5>
 
     <br></br>
-    <h3>Umich Women in Science and Engineering Residence Program (WISE) Peer Mentor</h3>
-    <h5> Mentored various mentee groups in a class of around 100 female freshman STEM students to support and guide them in their academic, professional, and personal journeys. Organized group social activities with Staff</h5>
+    <h3>Umich Women in Science and Engineering Residence Program (WISE) Mentor</h3>
+    <h5> Mentored both a main mentee group and rotating squads in a class of around 100 female freshman STEM students to support and guide them in their academic, professional, and personal journeys</h5>
     <br></br>
 
-    <h3>Society of Women Engineers (SWE) member for 2 years</h3>
+    <h3>Society of Women Engineers (SWE) Mentor</h3>
+    <h5> Was a member since freshman year, became a mentor as a Junior. Guides underclassmen SWE members in discovering their career paths, social/networking opportunities, and making the most out of college. 
     <br></br>
 
-    <h3>Undergraduate Research Opportunity Program (UROP) student researcher</h3>
-    <h5>Working on formal interdisciplinary CS research during Fall and Winter 2020 semesters</h5>
+    <h3>Appreciate and Reciprocate</h3>
+    <h5>LSA Scholarship community for volunteering at educational events around Umich, local high schools, and the community.</h5>
+
     <br></br>
     <br></br>
 
     <h1>Projects:</h1>
     <br></br>
 
-    <h2>C++</h2>
+    <h2>C++/C</h2>
+    
+    <h4>Assembly Language and other related Architecture Projects</h4>
+    <p> Created a program that implements an assembly language simulator </p>          
+    <p> Made a linker for making assembly files into object files of machine code</p>          
+    <p> Implemented a cycle-accurate behavioral simulator for a pipelined implementation of assembly language, with data forwarding and simple branch prediciton </p? 
+    <p> Designed a cache simulator</p>       
+    <br></br>
+    
+    <h4>Mine Escape and Searching, PQ Definer</h4>
+    <p>Created a mine escape game- it begins by generating a starting grid with weighted tiles containing different amounts of rubble and randomized TNT placements</p>
+    <p>The miner escapes by blasting out through the most optimal path (taking into consideration rubble values, paths that maybe aren't locally optimal but lead to TNT tiles/ chain reactions later on and clear more tiles, etc.) on a constantly evolving grid</p>       
+    <p>Utilized data structures including priority queues of vectors with custom comparator </p> 
+    <br></br>
+
+    <h4>Letterman</h4>
+    <p> Created a Letterman project that takes in any user input start word to change into an input end word </p>
+    <p> One letter is changed at a time through insert, delete, swap, or change, with the position of the modification depending on whether it matches a word in the generated dictionary ( users can choose simple or complex- which special symbols can be attached to a list of words to generate more words: some symbols depending on their placement mean to generate all words that can be formed from reversing the word, swapping certain characters, repeating certain letters, etc.)</p>
+    <p> Utilized stack, queue, and deques of structs</p>       
+    <br></br>
+
+    <h4>Relational Databases</h4>
+    <p> Created a program emulating different features of relational databases with an overall interface based on SQL</p>
+    <p> Utilized data structure including hash maps, binary search trees, functors, comparators</p>       
+    <br></br>
+
 
     <h4>Machine Learning</h4>
     <p> Created a C++ program that uses natural language processing and machine learning techniques to automatically identify the subjects of Piazza posts </p>          
@@ -217,8 +258,8 @@
 
   <br></br>
   <h4>Other</h4>
-  <p>play piano and violin</p>
-  <p>former speech and debate competitor- informative and oratory speaking</p>
+  <p>Play piano and violin</p>
+  <p>Former Speech and Debate competitor- informative and oratory speaking</p>
 
   <br>
 
